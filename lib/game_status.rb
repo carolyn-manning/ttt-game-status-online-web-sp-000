@@ -61,5 +61,7 @@ def winner(board)
     "X"
   elsif board[win[0]] == "O"
     "O"
+  else
+    nil
   end
 end
