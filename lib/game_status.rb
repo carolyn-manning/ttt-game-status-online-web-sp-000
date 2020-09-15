@@ -57,18 +57,9 @@ end
 
 def winner(board)
   win = won?(board)
-  if win[0] == "X"
-     "X"
-  elsif win[0] = "O"
-     "O"
-  end
-end
-
-def winner(board)
-  win = won?(board)
   if board[win[0]] == "X"
     "X"
   elsif board[win[0]] == "O"
     "O"
   end
-end 
+end
